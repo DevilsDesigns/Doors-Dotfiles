@@ -51,4 +51,4 @@ In Desktop Effects in System Settings, ensure the "Maximize" effect is disabled,
 
 For a look-alike "Command Prompt", ensure you are using fish as your command line shell, and kitty as your terminal emulator, and copy the "fish" and "kitty" folders in this repository to ~/.config
 
-Finally, replace /etc/profile.d/freetype2.sh with the one included in this repo, and reboot for the font rendering to better match Windows.
+Finally, replace /etc/profile.d/freetype2.sh with the one included in this repo, copy 99-msft.conf to /etc/fonts/conf.d/ and reboot for the font rendering to better match Windows.
